@@ -1,9 +1,10 @@
 *
 !.gitignore
-!include/
-!include/*
 !src/
 !src/*
 !src/**/*
+!lib/
+!lib/*
+!lib/**/*
 !README.md
 !CMakeLists.txt
