@@ -13,8 +13,19 @@ Note: This project was built with the C++14 flag. Enable this flag to avoid comp
 
 ## Usage
 The program supports two different modes: input directly in the console, or input with a text file.
-
 Both relative or absolute path can be used for the file mode.
+
+Each line must have the following syntax:
+```
+<variable> = <expression>
+```
+
+Supported operators:
+* `+`, `-`, `*`, `/`, `^`
+* `div`, `mod` (integers only)
+* functions: `sin`, `cos`, `tan`, `cot`, `exp`
+
+`pi` constant is also supported.
 
 Example:
 * Input file:
